@@ -1,4 +1,8 @@
-import java.util.*;
+package Ejercicios_1;
+import java.util.Scanner;
+
+import prueba_static.Prueba;
+
 public class resta_decimal {
 
 	public static void main(String[] args) {
@@ -17,7 +21,7 @@ public class resta_decimal {
 		
 		System.out.println("El resultado de la suma es " + suma);
 		
-		
+		System.out.println(Prueba.div(suma, y));
 		
 
 	}

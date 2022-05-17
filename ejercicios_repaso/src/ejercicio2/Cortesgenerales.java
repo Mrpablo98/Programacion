@@ -139,7 +139,7 @@ public class Cortesgenerales{
 		return "Cortesgenerales [Legisladores=" + Legisladores + "]";
 	}
 	
-
+	
 	
 	
 }

@@ -119,5 +119,25 @@ public class Persona {
 		return (int) ChronoUnit.DAYS.between(LocalDate.now(), cumple);
 		
 		}
+
+		
+
+		
 	}
+
+	//crear funcion que devuelva los dias que faltan para tener 25 años
+	public int Dias25(){
+
+		return (int) ChronoUnit.DAYS.between(LocalDate.now(), LocalDate.of(fechaNacimiento.getYear()+25, fechaNacimiento.getMonth(), fechaNacimiento.getDayOfMonth())); 
+
+	}
+
+	//crear funcion que devuelva los dias que faltan para tener 50 años
+
+	public int Dias50(){
+
+		return (int) ChronoUnit.DAYS.between(LocalDate.now(), LocalDate.of(fechaNacimiento.getYear()+50, fechaNacimiento.getMonth(), fechaNacimiento.getDayOfMonth())); 
+
+	}
+
 }

@@ -1,8 +1,8 @@
 package Ejercicio2;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.ChronoUnit;
-import java.util.*;
+import java.util.Scanner;
+
 
 public class Ejercicio2 {
 
@@ -94,7 +94,7 @@ public class Ejercicio2 {
 			System.out.println("La persona 2 tiene el cumpleanhos mas cercano");
 			
 		}
-		
+		entrada.close();
 	}
 
 }
